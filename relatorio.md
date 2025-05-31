@@ -72,7 +72,7 @@ perf stat ./threads_cpu_io
 
 # Considerações Finais
 
-A realização deste trabalho proporcionou uma vivência prática enriquecedora na implementação e análise de threads com perfis distintos de carga — CPU-bound e I/O-bound. O uso do Docker como ambiente isolado e reprodutível foi essencial para garantir estabilidade nas execuções e simplificar o gerenciamento das dependências envolvidas.
+A realização deste trabalho proporcionou uma vivência prática enriquecedora na implementação e análise de threads com perfis distintos de carga: CPU-bound e I/O-bound. O uso do Docker como ambiente isolado e reprodutível foi essencial para garantir estabilidade nas execuções e simplificar o gerenciamento das dependências envolvidas.
 
 As alterações aplicadas ao código, como a troca do cálculo de \( e^x \) por uma estimativa de \(\pi\) via a série de Leibniz, somadas à adição de novas threads, elevaram significativamente a complexidade computacional. Isso tornou possível observar de forma mais precisa o comportamento das threads sob condições de maior exigência de processamento.
 
