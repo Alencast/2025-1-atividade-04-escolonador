@@ -14,7 +14,6 @@ A etapa inicial envolveu a construção de uma imagem Docker customizada, chamad
 
 Na sequência, um contêiner foi iniciado em modo interativo com a imagem previamente criada. Para facilitar o uso, o terminal fish foi adotado, oferecendo uma interface de linha de comando mais intuitiva e eficiente.
 
-![Execução do contêiner com terminal fish](imagens/image2.png)
 
 ---
 
