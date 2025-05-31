@@ -61,7 +61,7 @@ int main() {
         pthread_join(cpu3, NULL);
         pthread_join(io1, NULL);
         pthread_join(io2, NULL);
-        pthread_join(io3, NULL);
+        pthread_join(io3, NULL) ;
 
     } else if (pid > 0) {
         // Processo pai
